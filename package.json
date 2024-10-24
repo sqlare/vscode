@@ -1,0 +1,25 @@
+{
+  "name": "sqlare-vscode",
+  "displayName": "sqlare-vscode",
+  "description": "sqlare vscode theme",
+  "version": "0.0.1",
+  "scripts": {
+    "package": "pnpm vsce package --no-dependencies",
+    "publish": "pnpm vsce publish --no-dependencies"
+  },
+  "engines": {
+    "vscode": "^1.94.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Sqlare Color Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Sqlare Color Theme-color-theme.json"
+      }
+    ]
+  }
+}
